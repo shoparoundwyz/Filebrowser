@@ -50,6 +50,22 @@ nano /etc/filebrowser/filebrowser.json
 
 
 
+systemctl enable filebrowser  
+systemctl start filebrowser  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
