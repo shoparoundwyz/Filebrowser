@@ -1,6 +1,6 @@
 Manually install  
 nano /lib/systemd/system/filebrowser.service  
-
+<pre>
 Description=Filebrowser Service  
 After=network.target  
 Wants=network.target  
@@ -13,7 +13,7 @@ Restart=on-failure
 
 [Install]  
 WantedBy=multi-user.target
-
+</pre>
 
 
 
@@ -22,7 +22,7 @@ WantedBy=multi-user.target
 
 
 nano /etc/filebrowser/filebrowser.json  
-<pre><code>
+<pre>
 {  
   "port": 8300,  
   "noAuth": false,  
@@ -42,8 +42,7 @@ nano /etc/filebrowser/filebrowser.json
     "svn"  
   ]  
 }  
-<pre>
-</code></pre>
+</pre>
 
 
 
