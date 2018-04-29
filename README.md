@@ -1,29 +1,13 @@
-# filebrowser
+nano /lib/systemd/system/filebrowser.service  
+Description=Filebrowser Service  
+After=network.target  
+Wants=network.target  
 
-nano /lib/systemd/system/filebrowser.service
+[Service]  
+Type=simple  
+PIDFile=/var/run/filebrowser.pid  
+ExecStart=/usr/bin/filebrowser -c /etc/filebrowser/filebrowser.json  
+Restart=on-failure  
 
-Description=Filebrowser Service
-
-After=network.target
-
-Wants=network.target
-
-
-[Service]
-
-Type=simple
-
-PIDFile=/var/run/filebrowser.pid
-
-ExecStart=/usr/bin/filebrowser -c /etc/filebrowser/filebrowser.json
-
-Restart=on-failure
-
-
-[Install]
-
-WantedBy=multi-user.target
-
-systemctl enable filebrowser
-
-systemctl start filebrowser
+[Install]  
+WantedBy=multi-user.target  
