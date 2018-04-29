@@ -24,3 +24,5 @@ Restart=on-failure
 
 WantedBy=multi-user.target
 
+systemctl enable filebrowser
+systemctl start filebrowser
