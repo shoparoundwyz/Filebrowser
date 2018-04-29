@@ -1,12 +1,8 @@
 # filebrowser
 nano /lib/systemd/system/filebrowser.service
-
 Description=Filebrowser Service
-
 After=network.target
-
 Wants=network.target
-
 
 [Service]
 Type=simple
