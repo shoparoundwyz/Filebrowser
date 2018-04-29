@@ -35,7 +35,7 @@ nano /etc/filebrowser/filebrowser.json
   "plugin": "",  
   "scope": "/",  
   "allowCommands": true,  
-  "allowEdit": true,  
+  "allowEdit": true,    
   "allowNew": true,  
   "commands": [  
     "git",  
@@ -91,7 +91,7 @@ systemctl start filebrowser
 
 
 
-Automatically install  
+Automatically install    
 wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.sh
   
 chmod +x filebrowser.sh  
