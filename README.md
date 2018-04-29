@@ -1,3 +1,4 @@
+Manually install  
 nano /lib/systemd/system/filebrowser.service  
 Description=Filebrowser Service  
 After=network.target  
