@@ -1,0 +1,24 @@
+{
+  "port": 8300,
+  "noAuth": false,
+  "baseURL": "/admin",
+  "address": "0.0.0.0",
+  "reCaptchaKey": "",
+  "reCaptchaSecret": "",
+  "database": "/etc/filebrowser/database.db",
+  "log": "stdout",
+  "plugin": "",
+  "scope": "/",
+  "allowCommands": true,
+  "allowEdit": true,
+  "allowNew": true,
+  "commands": [
+    "git",
+    "svn"
+  ]
+}
+
+
+
+
+
