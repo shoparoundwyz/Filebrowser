@@ -65,15 +65,32 @@ wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser
   
 systemctl enable filebrowser    
 systemctl start filebrowser  
-  
-    
-    
-    
-    
-    
-    
-    
-  
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+</br>
+
+
+
+
+
+
+
+
 Automatically install  
 wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.sh
   
