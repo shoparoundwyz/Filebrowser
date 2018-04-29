@@ -1,0 +1,10 @@
+[Unit]
+Description=filebrowser
+    
+[Service]
+User=root
+ExecStart=/usr/bin/filebrowser --port 8300
+Restart=on-abort
+    
+[Install]
+WantedBy=multi-user.target
