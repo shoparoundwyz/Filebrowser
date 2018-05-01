@@ -58,9 +58,9 @@ nano /etc/filebrowser/[filebrowser.json](https://github.com/vpslinuxinstall/File
 
 
 
-download filebrowser to /usr/bin/  
-cd /usr
-cd bin  
+download [filebrowser](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser) to /usr/bin/  
+cd /usr  
+cd bin    
 wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser
   
 systemctl enable filebrowser    
@@ -90,8 +90,8 @@ systemctl start filebrowser
 
 
 
-
-Automatically install                        
+     
+Automatically install                              
 wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.sh
   
 chmod +x filebrowser.sh  
