@@ -59,12 +59,17 @@ nano /etc/filebrowser/[filebrowser.json](https://github.com/vpslinuxinstall/File
 
 
 download [filebrowser](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser) to /usr/bin/  
+```
 cd /usr  
+
 cd bin    
+
 wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser
+
   
 systemctl enable filebrowser    
-systemctl start filebrowser  
+systemctl start filebrowser
+```
 
 
 
