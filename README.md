@@ -1,4 +1,4 @@
-Manually install  
+# Manually install  
 nano /lib/systemd/system/[filebrowser.service](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.service)  
 <pre>
 Description=Filebrowser Service  
@@ -96,7 +96,7 @@ systemctl start filebrowser
 
 
      
-Automatically install      
+# Automatically install      
 ```
 wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.sh
   
