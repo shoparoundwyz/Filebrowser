@@ -1,7 +1,8 @@
 # Manually install  
-```
-nano /lib/systemd/system/[filebrowser.service](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.service)  
 
+nano /lib/systemd/system/[filebrowser.service](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.service)  
+```
+nano /lib/systemd/system/filebrowser.service
 Description=Filebrowser Service  
 After=network.target  
 Wants=network.target  
@@ -23,9 +24,10 @@ WantedBy=multi-user.target
 
 
 
-```
-nano /etc/filebrowser/[filebrowser.json](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.json)  
 
+nano /etc/filebrowser/[filebrowser.json](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.json)  
+```
+nano /etc/filebrowser/filebrowser.json
 {  
   "port": 8300,  
   "noAuth": false,  
