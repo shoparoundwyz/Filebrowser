@@ -65,7 +65,7 @@ WantedBy=multi-user.target
 		mkdir -p /etc/filebrowser
 		cat >/etc/filebrowser/filebrowser.json <<-EOF
 {
-  "port": 8500,
+  "port": 8300,
   "baseURL": "/admin",
   "address": "0.0.0.0",
   "reCaptchaKey": "",
