@@ -104,7 +104,7 @@ systemctl start filebrowser
      
 # Automatically install      
 ```
-wget https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.sh
+wget https://github.com/vpslinuxinstall/Filebrowser/raw/master/filebrowser.sh
   
 chmod +x filebrowser.sh  
 ./filebrowser.sh
