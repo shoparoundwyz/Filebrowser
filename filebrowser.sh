@@ -66,7 +66,6 @@ WantedBy=multi-user.target
 		cat >/etc/filebrowser/filebrowser.json <<-EOF
 {
   "port": 8300,
-  "noAuth": false,
   "baseURL": "/admin",
   "address": "0.0.0.0",
   "reCaptchaKey": "",
