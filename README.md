@@ -1,4 +1,11 @@
 # Manually install  
+```
+wget -P /usr/bin/ https://github.com/vpslinuxinstall/Filebrowser/releases/download/v1.0/filebrowser        
+cd /usr/bin/
+chmod +x filebrowser
+filebrowser --port 8300 
+```        
+Open your browser to `localhost:8300`.        
 
 nano /lib/systemd/system/[filebrowser.service](https://github.com/vpslinuxinstall/Filebrowser/blob/master/filebrowser.service)  
 ```
